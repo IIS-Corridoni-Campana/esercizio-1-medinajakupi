@@ -1,1 +1,18 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Giorno e notte</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 align="center">Giorno e notte</h1>
+        <p align="center">Questa scena interattiva invita l’utente a scegliere tra giorno e notte,<br>
+        trasformando l’ambiente con un semplice click. Immagini e testi cambiano <br>
+        per raccontare due atmosfere diverse, mostrando come l’interazione possa dare <br>
+        vita a un’esperienza visiva dinamica e coinvolgente.</p>
+        <button onclick="document.getElementById('immag').src='giorno.png'">GIORNO</button>
+        <img id="immag" src="notte.png" width:100px heigth:100px>
+        <button onclick="document.getElementById('immag').src='notte.png'">NOTTE</button>
+    </body>
+</html>
